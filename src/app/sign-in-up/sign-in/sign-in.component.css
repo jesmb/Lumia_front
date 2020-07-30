@@ -1,0 +1,46 @@
+
+.main-div {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+h1 {
+    font-size: 2.5em;;
+}
+
+.small-group {
+    font-size: 1.5em;
+}
+
+
+input {
+    display: block;
+    width: 30%;
+    margin: 15px 35%;
+    font-size: 1em;
+}
+
+button{
+    font-size: 1.2em;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px 3%;
+}
+
+a {
+    /*text-decoration: none; */
+    color: #d5e1e4;
+}
+
+
+/*   ----------------------------------------------------------   */
+/*      -----------------      MOBILE      -----------------      */
+/*   ----------------------------------------------------------   */
+
+@media only screen and (max-width: 800px) {
+
+    input {
+        width: 70%;
+        margin: 15px 15%;
+    }
+}
